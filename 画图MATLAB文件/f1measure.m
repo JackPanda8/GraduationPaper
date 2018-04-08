@@ -13,6 +13,6 @@ IMPN_Fmeasure=[99.149,98.967,98.765,97.413,97.114,96.709,94.166,92.334];
 plot(x,SNM_Fmeasure,'-* b', x,MPN_Fmeasure,'-V g', x,IMPN_Fmeasure,'-s r')
 axis( [0,500,60,100] );
 xlabel('数据规模(千)');
-ylabel('查全率(%)');
+ylabel('F1-measure(%)');
 %title('The graph of average run time ');
 legend('SNM','MPN','IMPN');
