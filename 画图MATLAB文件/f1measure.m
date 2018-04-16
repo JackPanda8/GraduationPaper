@@ -15,4 +15,4 @@ axis( [0,500,60,100] );
 xlabel('数据规模(千)');
 ylabel('F1-measure(%)');
 %title('The graph of average run time ');
-legend('SNM','MPN','IMPN');
+legend('SNM','MPN','OMPN');

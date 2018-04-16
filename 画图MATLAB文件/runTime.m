@@ -15,4 +15,4 @@ axis( [0,500,0,23880] );%横纵坐标的坐标取值范围
 xlabel('数据规模(千)');%横坐标名字
 ylabel('运行时间(单位:秒)');%纵坐标名字
 %title('The graph of average run time ');
-legend('SNM','MPN','IMPN');%图例
+legend('SNM','MPN','OMPN');

@@ -15,4 +15,4 @@ axis( [0,500,70,100] );
 xlabel('数据规模(千)');
 ylabel('查全率(%)');
 %title('The graph of average run time ');
-legend('IMPN', 'A-IMPN','BP-IMPN');
+legend('OMPN','A-OMPN','BP-OMPN');%图例
